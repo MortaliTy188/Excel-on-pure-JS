@@ -9,8 +9,6 @@ export class ExcelComponent extends DomListener {
     this.unsubscribers = []
     this.storeSub = null
 
-    console.log(options)
-
     this.prepare()
   }
 
