@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+import {Page} from "@core/Page";
+import {$} from "@core/dom";
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <title>Pure JS excel</title>
-</head>
-
-<body>
-  <div id="app" class="container">
-
-    <div class="db">
-
-      <div class="db__header">
+export class DashboardPage extends Page {
+    getRoot() {
+        return $.create('div', 'db').html(`
+        <div class="db__header">
         <h1>Excel Dashboard</h1>
       </div>
 
@@ -48,10 +37,6 @@
         </ul>
 
       </div>
-
-    </div>
-
-  </div>
-</body>
-
-</html>
+        `)
+    }
+}
