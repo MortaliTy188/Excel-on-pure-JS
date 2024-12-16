@@ -18,10 +18,9 @@
 - [Описание проекта](#описание-проекта)
 - [Технологии](#технологии)
 - [Ветки](#ветки)
-  - [main](#main)
+  - [master](#master)
   - [css-layout](#css-layout)
   - [framework-start](#framework-start)
-  - [master](#master)
   - [redux](#redux)
   - [resize](#resize)
   - [routing](#routing)
@@ -29,26 +28,23 @@
 
 ## Ветки
 
-### master
+### [master](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/master)
 Основная ветка, содержащая стабильную версию проекта.
 
-### css-layout
+### [css-layout](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/css-layout)
 Ветка, в которой реализована верстка с использованием CSS. Включает стилизацию таблиц и их элементов для улучшения интерфейса пользователя.
 
-### framework-start
+### [framework-start](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/framework-start)
 Начальная версия проекта с минимальным набором функционала. Используется для демонстрации базовых возможностей и структуры проекта.
 
-### master
-Основная ветка разработки, содержащая актуальную версию проекта. Включает последние изменения и улучшения.
-
-### redux
+### [redux](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/redux)
 Ветка, в которой реализован функционал с использованием библиотеки Redux. Позволяет управлять состоянием приложения и упрощает работу с данными.
 
-### resize
+### [resize](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/resize)
 Ветка, в которой добавлена функциональность изменения размеров ячеек таблицы. Позволяет пользователям динамически изменять размер столбцов и строк.
 
-### routing
+### [routing](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/routing)
 Ветка, в которой реализована маршрутизация для различных страниц приложения. Позволяет пользователям навигировать между различными частями приложения.
 
-### webpack
+### [webpack](https://github.com/MortaliTy188/Excel-on-pure-JS/tree/webpack)
 Ветка, в которой настроена сборка проекта с использованием Webpack. Оптимизирует процесс разработки и сборки, обеспечивая минимизацию и транспиляцию кода.
